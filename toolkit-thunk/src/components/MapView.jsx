@@ -37,7 +37,11 @@ const MapView = () => {
         />
 
         {state.flights.map((flight) => (
-          <Marker position={[flight.lat, flight.lng]} icon={planeIcon}>
+          <Marker
+            key={flight.id}
+            position={[flight.lat, flight.lng]}
+            icon={planeIcon}
+          >
             <Popup>
               <div className="popup">
                 <span>Code:{flight.code}</span>
