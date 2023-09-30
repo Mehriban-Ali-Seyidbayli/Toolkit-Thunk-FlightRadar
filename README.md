@@ -1,12 +1,9 @@
 # Flight Radar
 
-## Libraries
+## In this project, I've used different libraries such as Leaflet, React-Leaflet, React-Redux, Redux-Thunk, Redux-Toolkit, Axios.
 
-<ul>
-<li>Leaflet</li>
-<li>React-Leaflet</li>
-<li>React-Redux</li>
-<li>Redux-Thunk</li>
-<li>@reduxjs/toolkit</li>
-<li>Axios</li>
-</ul>
+### You can click location signs and see details of flights.
+
+### Screen Gif
+
+![](screen.gif)
